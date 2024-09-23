@@ -3,13 +3,11 @@ header{
     padding-bottom: 2px;
     padding-left: 119px;
     padding-right: 119px;
-    align-items: center;
 }
 
 .header_elements_row{
     display: flex;
     justify-content: space-between;
-
     align-items: center;
 }
 .header_menu_options_row {

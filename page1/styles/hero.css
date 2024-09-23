@@ -1,8 +1,105 @@
-.hero{
-   color
-.hero_content {
-    background-color: #c22626;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
 }
-.hero_content h1{
-    background-color: #c22626;
+
+.hero{
+    min-height: 580px;
+    position: relative;
+    display: flex;
+    gap: 10px;
+}
+.hero_content {
+    max-width: 1440px;
+    padding-top: 40px;
+    padding-left: 120px;
+    padding-bottom: 40px;
+    padding-right: 120px
+}
+
+.hero_text{
+    max-width: 505px;
+    min-height: 252px;
+}
+
+.hero_text h1{
+    font-family: "Changa One", sans-serif;
+    font-size: 73px;
+    font-weight: 400;
+    line-height: 84px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #434343;
+
+}
+
+.hero_text p {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: #434343;
+}
+
+.watch_btn{
+    width: 36px;
+    height: 36px;
+    border: none;
+    background-image: url('/page1/images/start.png');
+    background-size: cover;
+}
+
+.hero_buttons{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.share_btn{
+    width: 165.17px;
+    height: 46px;
+    padding: 13.5px 9.52px 13.5px 9.52px;
+    border-radius: 4px;
+    background-color: #8A53FF; 
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+}
+.watch_btn_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.watch_btn_container a{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    margin-left: 10px;
+}
+.hero_img{
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+.hero_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.special{
+    color:#8A53FF;
 }
