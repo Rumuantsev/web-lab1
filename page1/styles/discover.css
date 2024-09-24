@@ -1,0 +1,74 @@
+.discover{
+    max-width: Fill (1,440px)px;
+    min-height: 621px;
+    padding-top: 24px;
+    padding-left: 119px;
+    padding-bottom: 70px;
+    padding-right: 119px;
+}
+
+.discover_header h1{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #8A53FF;
+    text-transform: uppercase;
+    align-self: center;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.discover_header h2{
+    font-family: Changa One;
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: #434343;
+    text-align: center;
+}
+
+.discover_cards{
+    display: flex;
+    margin: 0 auto;
+    width: 1202px;
+    margin-top: 48px;
+}
+
+.frame1, .frame2{
+    display: flex;
+    width: 601px;
+    height: 410px;
+}
+
+.patagonia_card, .dubai_card, .italy_card, .iceland_card{
+    padding: 16px;
+}
+
+.iceland_text h3, .italy_text h3, .dubai_text h3, .patagonia_text h3{
+    font-family: Changa One;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    color:#434343;
+}
+.iceland_text h4, .italy_text h4, .dubai_text h4, .patagonia_text h4{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: center;    
+    color: #8A53FF;
+
+}
+@media (max-width: 1350px) {
+    .discover_cards {
+        flex-direction: column; 
+        padding-left: 120px;
+    }
+    
+}
