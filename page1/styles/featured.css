@@ -55,12 +55,12 @@
 }
 
 .destination_btn{
-    width: 19.46px;
-    height: 19.46px;
+    width: 36px;
+    height: 36px;
     top: 234.43px;
     left: 57.41px;
     border: none;
-    background-image: url('/page1/images/Group\ 678.svg');
+    background-image: url('/page1/images/Play.svg');
     background-size: cover;
 }
 

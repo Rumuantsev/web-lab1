@@ -1,0 +1,125 @@
+.recent{
+    display: flex;
+    flex-direction: column;
+    padding-top: 83px;
+    padding-right: 120px;
+    padding-bottom: 83px;
+    padding-left: 120px;
+}
+
+.recent_titles{
+    margin-bottom: 30px
+}
+
+.story_block{
+    display: flex;
+    align-items: center;
+}
+
+.stories_left{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.big_story_card{
+    display: flex;
+    flex-direction: column;
+}
+.big_story_card_text{
+    margin-right: 28px;
+}
+
+.big_story_card_body{
+    display: flex;
+    align-items: center;
+}
+
+.big_story_card img{
+    width: 560px;
+    height: 358.11px;
+}
+
+.stories_right{
+    display: flex;
+    flex-direction: column;
+}
+
+.story_card{
+    display: flex;
+    padding: 11px;
+    align-items: center;
+}
+
+.story_card img{
+    width: 200px;
+    height: 128px;
+    border-radius: 4px 0px 0px 0px;
+}
+
+.story_card_text{
+    margin-left: 20px;
+}
+
+.big_story_card_play_btn{
+    width: 49px;
+    height: 49px;
+    border: none;
+    background-image: url('/page1/images/Recent\ play.svg');
+}
+
+.recent_titles h1{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #8A53FF;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.recent_titles h2{
+    font-family: Changa One;
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;    
+    color: #434343;
+    text-transform: uppercase;
+}
+
+.big_story_card_text h3{
+    font-family: Changa One;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: #434343;
+}
+
+.big_story_card_text  p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #576074;
+}
+
+.story_card_text h3{
+    font-family: Changa One;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color:#434343
+}
+
+.story_card_text p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #576074;  
+}

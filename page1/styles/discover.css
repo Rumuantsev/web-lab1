@@ -68,7 +68,7 @@
 @media (max-width: 1350px) {
     .discover_cards {
         flex-direction: column; 
-        padding-left: 120px;
+        align-items: center;
     }
     
 }
