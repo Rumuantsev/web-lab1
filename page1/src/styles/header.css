@@ -19,11 +19,11 @@ header{
     color: #2d7ad1;
 }
 
-.selected {
+.header_links .selected {
     color: #8A53FF;
 }
 
-a {
+.header_links a {
     text-decoration: none;
     font-family: 'Roboto'; 
     font-size: 16px;

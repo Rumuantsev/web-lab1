@@ -1,0 +1,39 @@
+footer{
+    padding-top: 32px;
+    padding-right: 120px;
+    padding-bottom: 32px;
+    padding-left: 120px;
+}
+
+.footer_elements_row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_elements_row p{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+    color: #939EB4;
+}
+
+.footer_links a{
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: center;    
+    color: #939EB4;
+}
+
+.footer_links ul{
+    display: flex; 
+    list-style-type: none;
+}
+
+.footer_links li{
+    margin-right: 16px;
+}
