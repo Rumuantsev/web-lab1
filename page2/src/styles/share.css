@@ -1,5 +1,5 @@
 .share{
-    height: 900px;
+    height: 800px;
     position: relative;
     padding-top: 71px;
 }
@@ -70,6 +70,7 @@
     letter-spacing: 0.15000000596046448px;
     text-align: left;
     color: #00000099;
+    outline: 1px solid #00000099; 
 }
 
 .form_body button{

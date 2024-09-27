@@ -1,9 +1,8 @@
 footer{
-    padding-top: 3px;
+    padding-top: 32px;
     padding-right: 120px;
-    padding-bottom: 3px;
+    padding-bottom: 32px;
     padding-left: 120px;
-    border: solid;
 }
 
 .footer_elements_row{

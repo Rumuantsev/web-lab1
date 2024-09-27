@@ -8,7 +8,7 @@
 
 .callout_images{
     display: flex;
-    border: solid;
+   
 }
 
 .callout_images_left img{
@@ -28,13 +28,13 @@
     margin-bottom: 16px; 
     width: 220.41px;
     height: 262px;
-    border: solid;
+    
 }
 
 .callout_images_right_down img{ 
     width: 220.41px;
     height: 202px;
-    border: solid;
+   
 }
 
 .callout_copywriting{
