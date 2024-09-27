@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link href="/page2/src/styles/reset.css" rel="stylesheet">
-    <link href="/page1/src/styles/header.css" rel="stylesheet">
-    <link href="/page1/src/styles/hero.css" rel="stylesheet">
-    <link href="/page1/src/styles/discover.css" rel="stylesheet">
+    <link href="/src/styles/base/reset.css" rel="stylesheet">
+    <link href="/src/styles/base/header.css" rel="stylesheet">
+    <link href="/src/styles/home/hero.css" rel="stylesheet">
+    <link href="/src/styles/home/featured.css" rel="stylesheet">
     <link href="/page1/src/styles/featured.css" rel="stylesheet">
-    <link href="/page1/src/styles/share.css" rel="stylesheet">
-    <link href="/page1/src/styles/recent.css" rel="stylesheet">
-    <link href="/page1/src/styles/footer.css" rel="stylesheet">
+    <link href="/src/styles/home/discover.css" rel="stylesheet">
+    <link href="/src/styles/base/share.css" rel="stylesheet">
+    <link href="/src/styles/home/recent.css" rel="stylesheet">
+    <link href="/src/styles/base/footer.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Changa+One&display=swap" rel="stylesheet">
 </head>
@@ -19,8 +20,8 @@
     <header>
             <div class="header_elements_row">
                 <div class="header_logo">
-                    <img class="Talking" src="/page1/images/talking-logo.svg">
-                    <img class="Travel" src="/page1/images/travel-logo.svg">
+                    <img class="Talking" src="/src/images/base/talking-logo.svg">
+                    <img class="Travel" src="/src/images/base/travel-logo.svg">
                 </div>
                 <div class="header_menu_options_row">
                     <nav class="header_links">
@@ -32,8 +33,8 @@
                         </ul>
                     </nav>
                     <div class="seperator "></div>
-                    <img class="search" src="/page1/images/search-icon.svg">
-                    <img class="user" src="/page1/images/user-icon.svg">
+                    <img class="search" src="/src/images/base/search-icon.svg">
+                    <img class="user" src="/src/images/base/user-icon.svg">
                 </div>
             </div> 
     </header>
@@ -59,13 +60,13 @@
                 </div>
             </div>
             <div class="hero_img">
-                <img src="/page1/images/Hero container.jpg" alt="Hero container">
+                <img src="/src/images/home/hero-bg.jpg" alt="Hero container">
             </div>
         </section>
         <section class="featured">
             <div class="featured_img_container">
                 <div class="feature_img">
-                    <img src="/page1/images/feature_img.jpg" alt="stylesheet">
+                    <img src="/src/images/home/feature_img.jpg" alt="stylesheet">
                 </div>
             </div> 
             <div class="featured_destination_container">
@@ -88,14 +89,14 @@
            <div class="discover_cards">
                 <div class="frame1">
                     <div class="iceland_card">
-                        <img src="/page1/images/iseland.png" alt="" style="width: 268.5px; height: 317.05px; border-radius: 8px 0px 0px 0px;">
+                        <img src="/src/images/home/iceland.png" alt="" style="width: 268.5px; height: 317.05px; border-radius: 8px 0px 0px 0px;">
                         <div class="iceland_text">
                             <p><h3>Iceland</h3></p>
                             <p><h4>Discover</h4></p>
                         </div>
                     </div>
                     <div class="italy_card">
-                        <img src="/page1/images/italy.png" alt="">
+                        <img src="/src/images/home/italy.png" alt="">
                         <div class="italy_text">
                             <p><h3>Italy</h3></p>
                             <p><h4>Discover</h4></p>
@@ -104,14 +105,14 @@
                 </div>
                 <div class="frame2">
                     <div class="dubai_card">
-                        <img src="/page1/images/dubai.png" alt="">
+                        <img src="/src/images/home/dubai.png" alt="">
                         <div class="dubai_text">
                             <p><h3>Dubai</h3></p>
                             <p><h4>Discover</h4></p>
                         </div>
                     </div> 
                     <div class="patagonia_card">
-                        <img src="/page1/images/patagonia.png" alt="">
+                        <img src="/src/images/home/patagonia.png" alt="">
                         <div class="patagonia_text">
                             <p><h3>Patagonia</h3></p>
                             <p><h4>Discover</h4></p>
@@ -142,7 +143,7 @@
                     </div>
                </div>
                <div class="share_img">
-                <img src="/page1/images/Share.jpg" alt="Share">
+                <img src="/src/images/base/share.jpg" alt="Share">
             </div>
          </section>
          <section class="recent">
@@ -153,7 +154,7 @@
             <div class="story_block">
                 <div class="stories_left">
                     <div class="big_story_card">
-                        <img src="/page1/images/Big Story Image.jpg" alt="Big Story Image">
+                        <img src="/src/images/home/big-story-image.jpg" alt="Big Story Image">
                         <div class="big_story_card_body">
                             <div class="big_story_card_text">
                                 <h3>Zermatt, Switzerland</h3>
@@ -166,7 +167,7 @@
                 </div>
                 <div class="stories_right">
                     <div class="story_card">
-                        <img src="/page1/images/Tuscany.jpg" alt="Tiscany image">
+                        <img src="/src/images/home/tuscany.jpg" alt="Tuscany image">
                         <div class="story_card_text">
                             <h3>Tuscany, Italy</h3>
                             <p>The amazing Tuscany is home to famous Renaissance art and architecture
@@ -175,7 +176,7 @@
                         </div>
                     </div>
                     <div class="story_card">
-                        <img src="/page1/images/Kyoto.jpg" alt="Kyoto image">
+                        <img src="/src/images/home/kyoto.jpg" alt="Kyoto image">
                         <div class="story_card_text">
                             <h3>Kyoto, Japan</h3>
                             <p>Kyoto is well known for its temples, gardens, 
@@ -184,7 +185,7 @@
                         </div>
                     </div>
                     <div class="story_card">
-                        <img src="/page1/images/Lofoten.jpg" alt="Lofoten image">
+                        <img src="/src/images/home/lofoten.jpg" alt="Lofoten image">
                         <div class="story_card_text">
                             <h3>Lofoten Islands, Norway</h3>
                             <p>Featuring razor-sharp peaks housing the arctic landscape. This astonishing 

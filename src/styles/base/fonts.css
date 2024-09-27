@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Black Signature';
-    src: url(/page2/BlackSignaturePersonalUseOnlyRegular.otf) format('truetype');
+    src: url(/src/fonts/BlackSignaturePersonalUseOnlyRegular.otf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
