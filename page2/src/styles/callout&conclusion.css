@@ -1,0 +1,112 @@
+.callout{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 35px;
+}
+
+.callout_images{
+    display: flex;
+    border: solid;
+}
+
+.callout_images_left img{
+    width: 220px;
+    height: 480px;
+    border-radius: 20px;
+}
+
+.callout_images_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+
+.callout_images_right_up img{
+    margin-bottom: 16px; 
+    width: 220.41px;
+    height: 262px;
+    border: solid;
+}
+
+.callout_images_right_down img{ 
+    width: 220.41px;
+    height: 202px;
+    border: solid;
+}
+
+.callout_copywriting{
+    width: 527px;
+    margin-left: 36px; 
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.callout_copywriting_title{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.callout_title_logo{
+    display: flex;
+    align-items: flex-start;
+    margin-right: 17px;
+}
+
+.callout_title_logo img{
+    display: flex;
+    align-items: flex-start;
+    margin-right: 17px;
+}
+
+.callout_copywriting_title h2{
+    font-family: Changa One;
+    font-size: 42px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: #434344;
+}
+
+.callout_copywriting_text p{
+    margin-bottom: 30px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #434344;    
+}
+
+.callout_copywriting button{
+    margin-top: 100px;
+    padding: 10px 20px;
+    width: 165.17px;
+    height: 46px;
+    border-radius: 4px 0px 0px 0px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #9154FF;
+    color: white;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: center;
+}
+
+.conclusion p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
