@@ -58,6 +58,12 @@
     height: 128px;
     border-radius: 4px 0px 0px 0px;
 }
+.story_card a{
+    text-decoration: none;
+}
+.story_card span{
+    color: blueviolet;
+}
 
 .story_card_text{
     margin-left: 20px;

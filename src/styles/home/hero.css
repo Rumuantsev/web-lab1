@@ -71,6 +71,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 18.75px;
+    cursor: pointer;
 }
 .watch_btn_container{
     display: flex;
@@ -85,6 +86,7 @@
     text-align: left;
     margin-left: 10px;
     color: #434343;
+    text-decoration: none;
 }
 .hero_img{
     z-index: -1;
