@@ -12,7 +12,7 @@
 }
 .hero_content {
     max-width: 1440px;
-    padding-top: 40px;
+    padding-top: 120px;
     padding-left: 120px;
     padding-bottom: 40px;
     padding-right: 120px
@@ -47,7 +47,7 @@
     width: 36px;
     height: 36px;
     border: none;
-    background-image: url('/src/images/home/start.png');
+    background-image: url('../../images/home/start.png');
     background-size: cover;
     background-color: transparent;
 }
